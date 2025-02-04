@@ -1,6 +1,6 @@
 string = "Beaz knows!"
 shift = int(input("How much should the shift be?"))
-encryption = []
+encryption = ""
 for i in string:
     y=ord(i)
     s=y+shift
