@@ -5,5 +5,5 @@ for i in string:
     y=ord(i)
     s=y+shift
     n=chr(s)
-    encryption.append(n)
+    encryption += n
 print(encryption)
